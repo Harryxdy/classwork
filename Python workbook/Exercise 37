@@ -1,0 +1,21 @@
+
+sides = int(input("Please insert the number of sides:  "))
+
+if sides == 3:
+    print("It's a triangle.")
+if sides == 4:
+    print("It's a square.")
+if sides == 5:
+    print("It's a pentagon.")
+if sides == 6:
+    print("It's a hexagon.")
+if sides == 7:
+    print("It's a heotagon.")
+if sides == 8:
+    print("It's a octagon.")
+if sides == 9:
+    print("It's a nonagon.")
+if sides == 10:
+    print("It's a decagon.")
+if sides > 10 or sides < 3:
+    print("Error, please insert numbers between 3 to 10.")
