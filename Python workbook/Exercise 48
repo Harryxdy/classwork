@@ -1,0 +1,30 @@
+
+print("-" * 43)
+print("Welcome to the Chinese Zodiac calculater.")
+year = int(input("Please insert the year you want to calculate: "))
+
+animal = year % 12
+if animal == 0 :
+    print("The animal is monkey.")
+elif animal == 1 :
+    print("The animal is rooster.")
+elif animal == 2 :
+    print("The animal is dog.")
+elif animal == 3 :
+    print("The animal is pig.")
+elif animal == 4 :
+    print("The animal is rat.")
+elif animal == 5 :
+    print("The animal is ox.")
+elif animal == 6 :
+    print("The animal is tiger.")
+elif animal == 7 :
+    print("The animal is hare.")
+elif animal == 8 :
+    print("The animal is dragon.")
+elif animal == 9 :
+    print("The animal is snake.")
+elif animal == 10:
+    print("The animal is horse.")
+elif animal == 11:
+    print("The animal is sheep.")
