@@ -1,0 +1,16 @@
+
+print("-" * 44)
+print("Welcome to the dog year converter.")
+human_year = int(input("How many human years have your dog lived:  "))
+
+if human_year <= 0:
+    print("Error, please insert an valid age number that is greater than 0!")
+else :
+    if human_year <= 2:
+        dog_year = human_year * 10.5
+    else:
+        first_dog_year = 2 * 10.5
+        rest_dog_year = (human_year - 2) * 4
+        dog_year = first_dog_year + rest_dog_year
+    print("-" * 43)
+    print(f"If your dog lived for {human_year} years, it is {dog_year} years old.")
