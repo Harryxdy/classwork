@@ -1,0 +1,48 @@
+
+name = "St. Robert Catholic HIgh School"
+address = "8101 Leslie Street"
+city = "Thronhill"
+province = "ON"
+post_code = "L3T 7P4"
+number = "905-889-4982"
+print("-" * 43)
+print(name)
+print(address)
+print(f"{city}, {province}")
+print(post_code)
+print(number)
+
+
+
+name = input("What is your name: ")
+mood = input(f"Hi, {name}! How are you doing:  ")
+print(f"{name}, so you are {mood}.")
+
+
+
+length = float(input("Please enter the length:"))
+width = float(input("Please enter the width:"))
+area = length * width
+print(f"The area is {area}.")
+
+
+
+print("Please enter the length of your farm in feet: ")
+length = int(input())
+print("Please enter the width of your farm in feet: ")
+width = int(input())
+square_feet_per_acre = 43560
+acre = length * width / square_feet_per_acre
+print(f"Tht acre of your farmland is {round(acre)} acres.")
+
+
+
+less = 0.10
+more = 0.25
+how_many_less = int(input("How many containers you have that holds under or equal to one liter:  "))
+how_many_more = int(input("How many containers you have that holds more than one liter:  "))
+less_refund = less * how_many_less
+more_refund = more * how_many_more
+refund = less_refund + more_refund
+print("-------------------------------------")
+print(f"Your refund is ${refund}")
